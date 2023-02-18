@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    padding: 30px 10px;
+    justify-content: baseline;
+}
+.logo img{
+    margin: 10px;
+}
+nav ul{
+    display: flex;
+    margin-left: -180px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 20px;
+    color: #696969;
+    font-weight: 500;
+}
+button{
+    padding: 12px 30px;
+    margin: 0 10px;
+}
+.btn-order{
+    background: #fff;
+    border: 2px solid #d1caca;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn-reserve{
+    background: #ff7629;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content{
+    padding: 10px;
+    height: 500px;
+    width: 600px;
+    margin-top: 100px;
+    margin-left: 150px;
+    position: relative;
+}
+.content h1{
+    font-size: 55px;
+    padding: 10px;
+}
+.color-text{
+    color: #ff7629;
+}
+.content p{
+    padding: 20px 10px;
+    font-size: 20px;
+    color: #696969;
+}
+.banner-image{
+    position: absolute;
+    height: 530px;
+    width: 535px;
+    top: 105px;
+    left: 970px;
+    background-color: #ff7629;
+}
+.banner-image img{
+    position: absolute;
+    height: 430px;
+    width: 440px;
+    top: 50px;
+    border-radius: 10px;
+    left: -170px;
+    background-size: cover;
+}
